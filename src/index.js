@@ -1,10 +1,10 @@
 const gameData = {
-  name: 'Dino cards',
+  name: 'Águila de Cola Blanca',
   cards: [
-    'img/dino1.png',
-    'img/dino2.png',
-    'img/dino3.png',
-    'img/dino4.png'
+    'img/img1.png',
+    'img/img2.png',
+    'img/img3.png',
+    'img/img4.png'
   ],
   back: 'img/gear.png',
   columns: 4
@@ -111,7 +111,7 @@ function CardClick() {
         _currentCard.removeEventListener('click', CardClick);
         LastCard.removeEventListener('click', CardClick);
         if (hiddenCouples == 0) {
-          setMessage('Game Complete!!!');
+          setMessage('Juego completado!!!');
         }
         else {
           DisableClicks = false;
